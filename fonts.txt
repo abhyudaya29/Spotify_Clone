@@ -1,0 +1,2 @@
+font-family: 'Tilt Prism', cursive;
+font-family: 'Amatic SC', cursive;
