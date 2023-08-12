@@ -123,6 +123,7 @@ body {
 #progressbar{
     width: 80vw;
     /* color: red; */
+    cursor: pointer;
 
 
 }
@@ -182,11 +183,12 @@ body {
 .songinfo{
     position: absolute;
     left: 10vw;
+    
 }
 
 .songinfo img{
     opacity: 1;
-    transition: ease-in;
+    transition: opacity 1s ease-in;
 
 }
 
