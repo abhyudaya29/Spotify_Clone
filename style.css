@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background: linear-gradient(red,blue) */
 }
 
 body {
@@ -25,6 +26,7 @@ body {
     align-items: center;
     height: 60px;
     background-color: black;
+    /* position: sticky; */
 
 }
 .navbar li{
@@ -68,6 +70,61 @@ body {
     /* overflow: hidden; */
     
 }
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 35px;
+    /* height: 140px; */
+    background-image: url("paul-kansonkho-9xjHQvdMi4c-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: top left,center ;
+    
+}
 
+/* .container img{
+    width: 810px;
+    margin: 12px;
+    margin-bottom: 12px;
+    border: 12x;
+    border-radius: 12px;
+} */
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    /* margin-bottom: 120px; */
+    
+
+}
+.icons{
+    text-align: left!important ;
+    list-style: none;
+    line-height:.9rem;
+    letter-spacing: -1px;
+    /* transform: rotate(-9deg) skewX(.1turn); */
+    margin: 20px;
+    /* gap: 25%; */
+    cursor: pointer;
+    
+}
+#progressbar{
+    width: 80vw;
+    /* color: red; */
+
+
+}
 
 
